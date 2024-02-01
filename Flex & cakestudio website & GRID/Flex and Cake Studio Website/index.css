@@ -1,0 +1,125 @@
+
+.nav-bar{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+
+nav-bar h1{
+    font-size: 1.4rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu h3{
+    font-size: 1.2rem;
+} 
+
+.main-container img{
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+h1, h3{
+    margin: 0;
+}
+
+
+
+
+.card{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 14px;
+    display: block;
+    margin: auto;
+}
+
+/* .one, .two, .three{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+.one{
+    background-color: rgb(155, 206, 245);
+}
+
+.two{
+    background-color: yellow;
+    height: 200px;
+}
+
+.three{
+    background-color: pink;
+    height: 300px;
+} */
+
+/* .container{
+    margin: 20px;
+    background-color: rgb(92, 218, 121);
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 60px;
+    align-items: center;
+} */
+
+
+@media (min-width: 786px){
+    /* html{
+        font-size: 40px;
+    } */
+    .nav-bar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+ 
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-container img{
+        margin: 0;
+    }
+
+    .cards{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
